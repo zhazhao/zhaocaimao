@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D4AE49881F6CD45000750AC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE49871F6CD45000750AC3 /* AppDelegate.swift */; };
-		D4AE498A1F6CD45000750AC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE49891F6CD45000750AC3 /* ViewController.swift */; };
 		D4AE498D1F6CD45000750AC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE498B1F6CD45000750AC3 /* Main.storyboard */; };
 		D4AE498F1F6CD45000750AC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4AE498E1F6CD45000750AC3 /* Assets.xcassets */; };
 		D4AE49921F6CD45000750AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE49901F6CD45000750AC3 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 /* Begin PBXFileReference section */
 		D4AE49841F6CD44F00750AC3 /* zhaocaimao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhaocaimao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AE49871F6CD45000750AC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D4AE49891F6CD45000750AC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D4AE498C1F6CD45000750AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D4AE498E1F6CD45000750AC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4AE49911F6CD45000750AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,8 +95,8 @@
 		D4AE49861F6CD44F00750AC3 /* zhaocaimao */ = {
 			isa = PBXGroup;
 			children = (
+				D4AE49B51F6CDA6500750AC3 /* classes */,
 				D4AE49871F6CD45000750AC3 /* AppDelegate.swift */,
-				D4AE49891F6CD45000750AC3 /* ViewController.swift */,
 				D4AE498B1F6CD45000750AC3 /* Main.storyboard */,
 				D4AE498E1F6CD45000750AC3 /* Assets.xcassets */,
 				D4AE49901F6CD45000750AC3 /* LaunchScreen.storyboard */,
@@ -123,6 +121,61 @@
 				D4AE49A91F6CD45000750AC3 /* Info.plist */,
 			);
 			path = zhaocaimaoUITests;
+			sourceTree = "<group>";
+		};
+		D4AE49B51F6CDA6500750AC3 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				D4AE49B61F6CDA6500750AC3 /* Follow */,
+				D4AE49B71F6CDA6500750AC3 /* Home */,
+				D4AE49B81F6CDA6500750AC3 /* Live */,
+				D4AE49B91F6CDA6500750AC3 /* Main */,
+				D4AE49BA1F6CDA6500750AC3 /* Profile */,
+				D4AE49BB1F6CDA6500750AC3 /* Tools */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		D4AE49B61F6CDA6500750AC3 /* Follow */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Follow;
+			sourceTree = "<group>";
+		};
+		D4AE49B71F6CDA6500750AC3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D4AE49B81F6CDA6500750AC3 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		D4AE49B91F6CDA6500750AC3 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D4AE49BA1F6CDA6500750AC3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D4AE49BB1F6CDA6500750AC3 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +246,6 @@
 				TargetAttributes = {
 					D4AE49831F6CD44F00750AC3 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = P4AGB89PYE;
 					};
 					D4AE49971F6CD45000750AC3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -257,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4AE498A1F6CD45000750AC3 /* ViewController.swift in Sources */,
 				D4AE49881F6CD45000750AC3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
