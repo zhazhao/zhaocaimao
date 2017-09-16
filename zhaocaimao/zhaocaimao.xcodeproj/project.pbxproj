@@ -17,6 +17,7 @@
 		D4AE49C11F6CF21700750AC3 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE49BF1F6CF21700750AC3 /* Live.storyboard */; };
 		D4AE49C41F6CF28300750AC3 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE49C21F6CF28300750AC3 /* Follow.storyboard */; };
 		D4AE49C71F6CF29E00750AC3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE49C51F6CF29E00750AC3 /* Profile.storyboard */; };
+		D4AE49C91F6CF7F000750AC3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE49C81F6CF7F000750AC3 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		D4AE49C01F6CF21700750AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = zhaocaimao/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
 		D4AE49C31F6CF28300750AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = zhaocaimao/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
 		D4AE49C61F6CF29E00750AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = zhaocaimao/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		D4AE49C81F6CF7F000750AC3 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				D4AE498B1F6CD45000750AC3 /* Main.storyboard */,
+				D4AE49C81F6CF7F000750AC3 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4AE49881F6CD45000750AC3 /* AppDelegate.swift in Sources */,
+				D4AE49C91F6CF7F000750AC3 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,7 +511,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = zhaocaimao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sashyou.zhaocaimao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,7 +526,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = zhaocaimao/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sashyou.zhaocaimao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
