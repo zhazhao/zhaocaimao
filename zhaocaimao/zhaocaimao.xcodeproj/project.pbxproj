@@ -13,6 +13,10 @@
 		D4AE49921F6CD45000750AC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE49901F6CD45000750AC3 /* LaunchScreen.storyboard */; };
 		D4AE499D1F6CD45000750AC3 /* zhaocaimaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE499C1F6CD45000750AC3 /* zhaocaimaoTests.swift */; };
 		D4AE49A81F6CD45000750AC3 /* zhaocaimaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE49A71F6CD45000750AC3 /* zhaocaimaoUITests.swift */; };
+		D4AE49BE1F6CF1F800750AC3 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE49BC1F6CF1F800750AC3 /* Home.storyboard */; };
+		D4AE49C11F6CF21700750AC3 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE49BF1F6CF21700750AC3 /* Live.storyboard */; };
+		D4AE49C41F6CF28300750AC3 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE49C21F6CF28300750AC3 /* Follow.storyboard */; };
+		D4AE49C71F6CF29E00750AC3 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4AE49C51F6CF29E00750AC3 /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		D4AE49A31F6CD45000750AC3 /* zhaocaimaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zhaocaimaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AE49A71F6CD45000750AC3 /* zhaocaimaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zhaocaimaoUITests.swift; sourceTree = "<group>"; };
 		D4AE49A91F6CD45000750AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4AE49BD1F6CF1F800750AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = zhaocaimao/Base.lproj/Home.storyboard; sourceTree = SOURCE_ROOT; };
+		D4AE49C01F6CF21700750AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = zhaocaimao/Base.lproj/Live.storyboard; sourceTree = SOURCE_ROOT; };
+		D4AE49C31F6CF28300750AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = zhaocaimao/Base.lproj/Follow.storyboard; sourceTree = SOURCE_ROOT; };
+		D4AE49C61F6CF29E00750AC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = zhaocaimao/Base.lproj/Profile.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +146,7 @@
 		D4AE49B61F6CDA6500750AC3 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
+				D4AE49C21F6CF28300750AC3 /* Follow.storyboard */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -145,6 +154,7 @@
 		D4AE49B71F6CDA6500750AC3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D4AE49BC1F6CF1F800750AC3 /* Home.storyboard */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -152,6 +162,7 @@
 		D4AE49B81F6CDA6500750AC3 /* Live */ = {
 			isa = PBXGroup;
 			children = (
+				D4AE49BF1F6CF21700750AC3 /* Live.storyboard */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -167,6 +178,7 @@
 		D4AE49BA1F6CDA6500750AC3 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				D4AE49C51F6CF29E00750AC3 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -285,6 +297,10 @@
 				D4AE49921F6CD45000750AC3 /* LaunchScreen.storyboard in Resources */,
 				D4AE498F1F6CD45000750AC3 /* Assets.xcassets in Resources */,
 				D4AE498D1F6CD45000750AC3 /* Main.storyboard in Resources */,
+				D4AE49C11F6CF21700750AC3 /* Live.storyboard in Resources */,
+				D4AE49BE1F6CF1F800750AC3 /* Home.storyboard in Resources */,
+				D4AE49C71F6CF29E00750AC3 /* Profile.storyboard in Resources */,
+				D4AE49C41F6CF28300750AC3 /* Follow.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +376,42 @@
 				D4AE49911F6CD45000750AC3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D4AE49BC1F6CF1F800750AC3 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AE49BD1F6CF1F800750AC3 /* Base */,
+			);
+			name = Home.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		D4AE49BF1F6CF21700750AC3 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AE49C01F6CF21700750AC3 /* Base */,
+			);
+			name = Live.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		D4AE49C21F6CF28300750AC3 /* Follow.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AE49C31F6CF28300750AC3 /* Base */,
+			);
+			name = Follow.storyboard;
+			path = ../Main;
+			sourceTree = "<group>";
+		};
+		D4AE49C51F6CF29E00750AC3 /* Profile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AE49C61F6CF29E00750AC3 /* Base */,
+			);
+			name = Profile.storyboard;
+			path = ../Main;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
